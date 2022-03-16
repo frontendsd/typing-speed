@@ -95,6 +95,7 @@ function reset() {
     modal.classList.add('hidden')
     overlay.classList.add('hidden')
     inputText.value = ""
+    highScoreEl.textContent = highscore
 }
 
 
