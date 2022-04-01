@@ -22,6 +22,7 @@ let randomEl
 const api = 'https://random-words-api.vercel.app/word'
 function randomNewWord() {
     fetch(api).then((data) => {
+        
         return data.json()
     })
     .then(getWords)
